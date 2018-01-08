@@ -6,7 +6,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 
-import com.example.kruger.petagram.com.example.kruger.petagram.pojo.Pet;
+import com.example.kruger.petagram.adapters.PetAdapter;
+import com.example.kruger.petagram.pojo.Pet;
 
 import java.util.ArrayList;
 

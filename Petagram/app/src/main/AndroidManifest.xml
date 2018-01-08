@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.kruger.petagram">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,9 +20,13 @@
         </activity>
         <activity
             android:name=".FavoritePetsActivity"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ContactoActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".AboutUsActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

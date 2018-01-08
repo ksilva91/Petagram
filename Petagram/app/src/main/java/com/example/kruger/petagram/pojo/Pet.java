@@ -1,4 +1,4 @@
-package com.example.kruger.petagram.com.example.kruger.petagram.pojo;
+package com.example.kruger.petagram.pojo;
 
 /**
  * Created by Kruger on 27/12/2017.

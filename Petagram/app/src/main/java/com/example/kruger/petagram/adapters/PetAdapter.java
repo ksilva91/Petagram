@@ -1,4 +1,4 @@
-package com.example.kruger.petagram;
+package com.example.kruger.petagram.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,7 +7,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.kruger.petagram.com.example.kruger.petagram.pojo.Pet;
+import com.example.kruger.petagram.R;
+import com.example.kruger.petagram.pojo.Pet;
 
 import java.util.ArrayList;
 
